@@ -1,0 +1,147 @@
+body{  
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image:url(image/galaxy.jpg);
+    background-repeat:repeat;
+    background-size:cover;
+}
+/*-----nav-----*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 50px;
+    color: rgb(238, 80, 37);
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    font-size: 30px;
+    margin: 10px 20px;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    padding: 6px 7px;
+    text-decoration: none;
+    color: orangered;
+    background-color: rgb(5, 5, 5);
+}
+nav ul li a:hover{   
+    background-color:rgb(19, 152, 185);
+    transition: 0.5s ease;
+}
+.ho{
+    background-color: rgb(5, 8, 115);
+}
+/*-------home------------*/
+.a{
+    border: 1px solid red;
+    padding: 10cm 10cm;
+    background-image: url(image/st.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3cm 3cm;
+}
+div p{
+    font-size: 70px;
+    color: rgb(13, 13, 11);
+    text-align: left;
+}
+/*--------project-----------*/
+.b{
+    display: inline-block;
+    margin: 0px 5cm;
+    text-align: center;
+}
+img{
+    height: 10cm;
+    width: 15cm;
+    border: 1px solid;border-radius: 15px;
+    margin: 2cm 3cm;
+}
+/*----------skill-----------*/
+h3{
+    color: black;
+    margin: 5px;
+    font-size: 30px;
+}
+.skill{
+    width: 30cm;
+    margin: 60px auto;
+    color: white;
+    padding: 3cm;
+    box-shadow: 0px 14px 28px rgb(0,0,0,0.6);
+
+}
+.skill li{
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+.bar{
+    height: 20px;
+    border: 1px solid red;
+    display: block;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(210, 34, 34, 0.6),rgba(177, 40, 40, 0.6)100%);
+} 
+.html{
+    width: 75%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+}
+.web{
+    width: 50%;
+    animation: web 3s;
+}
+.java{
+    width: 45%;
+    animation: java 3s;
+}
+.cp{
+    width: 45%;
+    animation: cp 3s;
+}
+/*----------About me--------*/
+.pad{
+    padding: 1cm 1cm;
+}
+.table{
+    font-size: 40px;
+    margin: 3cm 15cm;
+    text-align: left;
+}
+.c{
+    font-size: 40px;
+    border: 1px solid black;
+    height:15cm;
+    width:19cm;
+    margin: 1cm 5cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.e{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d{
+    display: flex;
+    margin: 0cm 5cm;
+}
