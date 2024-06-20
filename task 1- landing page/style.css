@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input[type=checkbox]
+{
+  width: 25px;
+  padding: 12px 20px;
+  height: 25px;
+}
+#a{
+  text-decoration: none;
+}
+.a{
+  width:7cm;
+  height: 7cm;
+  border: 1px solid ;
+  display: inline-block;
+  margin: 1cm 1cm 1cm 1cm;
+  background-repeat:repeat-x;
+  background-size:cover;
+}
+section{
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(3, 3, 3, 0.6),rgba(0,0,0,0.60)), url("image/te.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width: 85%;
+  margin: 2;
+}
+nav{
+  height: 80px;
+  margin: auto;
+}
+.h1{
+  float:left;
+  line-height: 80px;
+  font-size: 35px;
+  color: aqua;
+  font-style: italic;
+}
+nav ul{
+  line-height: 80px;
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color:#fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7px 8px;
+}
+nav ul li a:hover{
+  background-color: rgb(10, 200, 45);
+  transition:0.5s ease;
+}
+.article{
+  margin: 5cm 0px 0px 9cm;
+  width: 50%;
+  text-align: center;
+  transform: translate(25vh);
+  color: #b20909;
+} 
+.active{
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: orangered;
+}
+.article p{
+  font-size: 45px;
+  color:#c49d9d;
+  line-height:1.5;
+  margin-bottom: 50px;
+}
+.article h1{
+  font-size: 50px;
+  color:#fff;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.article h3{
+  font-size: 50px;
+  color:#655fd6;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.btn{
+  color: #fff;
+  font-size: large;
+  padding: 20px 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #3e0804;
+}
+.article .btn:hover{
+  background-color: green;
+  transition: 0.5s ease;
+}
+.sec{
+  background-image: linear-gradient(rgba(43, 41, 42, 0.2),rgba(30, 24, 26, 0.2)),url("image/din.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(206, 50, 15);
+  font-size: 1.5cm;
+}
+.sec nav ul{
+  float: right;
+  line-height: 80px;
+}
+.order{
+  margin: 4cm 0px 0px 29cm;
+  font-size: 1cm;
+  letter-spacing: 1.5px;
+  color:#fff;
+}
+.b{
+  text-align: center;
+}
